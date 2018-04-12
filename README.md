@@ -8,9 +8,12 @@
 
 ## 配置
 
-- npm install -g yarn react-native-cli
-- yarn config set registry https://registry.npm.taobao.org --global
-- yarn config set disturl https://npm.taobao.org/dist --global
+- 基本配置
+```
+npm install -g yarn react-native-cli
+yarn config set registry https://registry.npm.taobao.org --global
+yarn config set disturl https://npm.taobao.org/dist --global
+```
 
 - 添加Android SDK
 在.bashrc中添加 
@@ -19,11 +22,17 @@
  export ANDROID_HOME="/home/betterzw/android-sdk"
 ```
 - 创建工程
+```
 create-react-native-app AwesomeProject
+```
 - 初始化
+```
 react-native init AwesomeProject
+```
 - 运行
+```
 react-native run-android
+``
 ## 遇到的问题
 ```
 could not get batchedbridge, make sure your bundle is packaged correctly
