@@ -32,11 +32,13 @@ react-native init AwesomeProject
 - 运行
 ```
 react-native run-android
-``
+```
 ## 遇到的问题
+
 ```
 could not get batchedbridge, make sure your bundle is packaged correctly
 ```
+
 解决
 ```
 mkdir android/app/src/main/assets
